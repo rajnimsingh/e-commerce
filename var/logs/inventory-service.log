@@ -1,0 +1,8 @@
+2022-08-13T18:03:51,464 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplicationTests - Starting InventoryServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 878 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/inventory-service)
+2022-08-13T18:03:51,468 [main] DEBUG com.rajni.inventoryservice.InventoryServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-13T18:03:51,469 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-13T18:03:52,481 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplicationTests - Started InventoryServiceApplicationTests in 1.302 seconds (JVM running for 2.521)
+2022-08-13T18:17:12,853 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplicationTests - Starting InventoryServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1228 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/inventory-service)
+2022-08-13T18:17:12,855 [main] DEBUG com.rajni.inventoryservice.InventoryServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-13T18:17:12,855 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-13T18:17:13,755 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplicationTests - Started InventoryServiceApplicationTests in 1.145 seconds (JVM running for 2.259)

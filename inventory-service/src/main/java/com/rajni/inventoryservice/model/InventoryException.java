@@ -1,4 +1,4 @@
-package com.example.inventoryservice.model;
+package com.rajni.inventoryservice.model;
 
 public class InventoryException extends Exception {
     public InventoryException() {

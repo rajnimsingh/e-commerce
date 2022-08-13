@@ -1,6 +1,6 @@
-package com.example.inventoryservice.service;
+package com.rajni.inventoryservice.service;
 
-import com.example.inventoryservice.model.InventoryException;
+import com.rajni.inventoryservice.model.InventoryException;
 import com.rajni.ecommers.common.utils.EcommerceServiceConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

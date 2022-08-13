@@ -1,7 +1,7 @@
-package com.example.inventoryservice.controller;
+package com.rajni.inventoryservice.controller;
 
-import com.example.inventoryservice.model.InventoryException;
-import com.example.inventoryservice.service.InventoryService;
+import com.rajni.inventoryservice.model.InventoryException;
+import com.rajni.inventoryservice.service.InventoryService;
 import com.rajni.ecommers.common.model.Error;
 import com.rajni.ecommers.common.model.response.ItemResponse;
 import lombok.AllArgsConstructor;
