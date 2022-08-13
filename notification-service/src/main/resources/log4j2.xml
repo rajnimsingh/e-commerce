@@ -4,7 +4,7 @@
         <Console name="LogToConsole" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{ISO8601} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
-        <File name="LogToFile" immediateFlush="false" fileName="/Users/rajniubhi/Documents/JavaProjects/ecommerce/var/logs/notification-service.log">
+        <File name="LogToFile" immediateFlush="false" fileName="var/logs/notification-service.log">
             <PatternLayout pattern="%d{ISO8601} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
     </Appenders>

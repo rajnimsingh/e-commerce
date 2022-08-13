@@ -1,8 +1,10 @@
-18:03:47.290 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 873 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/payment-service)
-18:03:47.293 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
-18:03:47.294 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
-18:03:48.339 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 1.312 seconds (JVM running for 2.498)
-18:17:08.659 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1222 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/payment-service)
-18:17:08.662 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
-18:17:08.663 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
-18:17:09.692 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 1.317 seconds (JVM running for 2.611)
+18:12:46.920 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Starting PaymentServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 86184c79810a with PID 1 (/payment-service.jar started by root in /)
+18:12:47.037 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+18:12:47.040 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+18:12:56.513 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Started PaymentServiceApplication in 12.996 seconds (JVM running for 17.298)
+18:13:08.790 [http-nio-8060-exec-2] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 464.221887410447 by the user 123
+18:13:08.794 [http-nio-8060-exec-2] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 464.221887410447
+18:13:46.823 [http-nio-8060-exec-1] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 550.0 by the user 123
+18:13:46.825 [http-nio-8060-exec-1] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 550.0
+18:13:51.335 [http-nio-8060-exec-4] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 614.1525048490123 by the user 123
+18:13:51.336 [http-nio-8060-exec-4] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 614.1525048490123

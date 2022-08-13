@@ -1,0 +1,4 @@
+2022-08-13T23:42:10,488 [main] INFO  com.rajni.orderservice.OrderServiceApplicationTests - Starting OrderServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1440 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/order-service)
+2022-08-13T23:42:10,491 [main] DEBUG com.rajni.orderservice.OrderServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-13T23:42:10,492 [main] INFO  com.rajni.orderservice.OrderServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-13T23:42:11,396 [main] INFO  com.rajni.orderservice.OrderServiceApplicationTests - Started OrderServiceApplicationTests in 1.161 seconds (JVM running for 2.272)
