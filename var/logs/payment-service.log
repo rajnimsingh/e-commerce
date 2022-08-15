@@ -50,3 +50,27 @@
 09:07:49.553 [http-nio-8060-exec-6] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 730.6987892378153
 09:07:49.558 [http-nio-8060-exec-6] ERROR com.rajni.paymentservice.service.PaymentServiceImpl - Payment failed, as this amount 730.6987892378153 is not acceptable
 09:07:49.563 [http-nio-8060-exec-6] ERROR com.rajni.paymentservice.controller.PaymentController - Payment fails for the amount, 730.6987892378153 by the user, 123
+13:21:20.463 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Starting PaymentServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on b3e7da656f5d with PID 1 (/payment-service.jar started by root in /)
+13:21:20.540 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+13:21:20.561 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:21:33.427 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Started PaymentServiceApplication in 15.901 seconds (JVM running for 21.49)
+13:22:35.299 [http-nio-8060-exec-6] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 737.5306100330662 by the user 123
+13:22:35.309 [http-nio-8060-exec-6] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 737.5306100330662
+13:22:35.311 [http-nio-8060-exec-6] ERROR com.rajni.paymentservice.service.PaymentServiceImpl - Payment failed, as this amount 737.5306100330662 is not acceptable
+13:22:35.313 [http-nio-8060-exec-6] ERROR com.rajni.paymentservice.controller.PaymentController - Payment fails for the amount, 737.5306100330662 by the user, 123
+13:22:36.870 [http-nio-8060-exec-5] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 412.0521457161211 by the user 123
+13:22:36.873 [http-nio-8060-exec-5] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 412.0521457161211
+13:22:37.696 [http-nio-8060-exec-9] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 965.3961549214805 by the user 123
+13:22:37.698 [http-nio-8060-exec-9] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 965.3961549214805
+13:22:37.700 [http-nio-8060-exec-9] ERROR com.rajni.paymentservice.service.PaymentServiceImpl - Payment failed, as this amount 965.3961549214805 is not acceptable
+13:22:37.701 [http-nio-8060-exec-9] ERROR com.rajni.paymentservice.controller.PaymentController - Payment fails for the amount, 965.3961549214805 by the user, 123
+13:22:38.430 [http-nio-8060-exec-8] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 655.4078449610795 by the user 123
+13:22:38.432 [http-nio-8060-exec-8] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 655.4078449610795
+13:22:40.741 [http-nio-8060-exec-10] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 227.68671498104308 by the user 123
+13:22:40.743 [http-nio-8060-exec-10] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 227.68671498104308
+13:31:27.440 [http-nio-8060-exec-5] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 878.1561626821615 by the user 123
+13:31:27.441 [http-nio-8060-exec-5] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 878.1561626821615
+13:31:27.442 [http-nio-8060-exec-5] ERROR com.rajni.paymentservice.service.PaymentServiceImpl - Payment failed, as this amount 878.1561626821615 is not acceptable
+13:31:27.444 [http-nio-8060-exec-5] ERROR com.rajni.paymentservice.controller.PaymentController - Payment fails for the amount, 878.1561626821615 by the user, 123
+13:31:29.433 [http-nio-8060-exec-9] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 548.5592591673967 by the user 123
+13:31:29.434 [http-nio-8060-exec-9] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 548.5592591673967

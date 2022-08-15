@@ -155,3 +155,103 @@ com.rajni.orderservice.model.OrderException: Item not available
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+2022-08-15T09:07:05,775 [main] INFO  com.rajni.orderservice.OrderServiceApplication - Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 32e085c8db2e with PID 1 (/order-service.jar started by root in /)
+2022-08-15T09:07:05,921 [main] DEBUG com.rajni.orderservice.OrderServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-15T09:07:05,924 [main] INFO  com.rajni.orderservice.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-15T09:07:22,456 [main] INFO  com.rajni.orderservice.OrderServiceApplication - Started OrderServiceApplication in 21.642 seconds (JVM running for 31.617)
+2022-08-15T09:07:31,115 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T09:07:31,124 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T09:07:31,125 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T09:07:31,126 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T09:07:31,575 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T09:07:31,576 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 743.547556688681 by the user 123 
+2022-08-15T09:07:32,024 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 743.547556688681 by the user 123 
+2022-08-15T09:07:32,026 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T09:07:32,471 [http-nio-8080-exec-2] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T09:07:47,924 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T09:07:47,924 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T09:07:47,925 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T09:07:47,926 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T09:07:47,944 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T09:07:47,944 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 30.948443287568182 by the user 123 
+2022-08-15T09:07:47,969 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 30.948443287568182 by the user 123 
+2022-08-15T09:07:47,972 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T09:07:47,993 [http-nio-8080-exec-4] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T09:07:48,523 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T09:07:48,524 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T09:07:48,525 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T09:07:48,525 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T09:07:48,541 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T09:07:48,542 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 660.9486484250691 by the user 123 
+2022-08-15T09:07:48,559 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 660.9486484250691 by the user 123 
+2022-08-15T09:07:48,565 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T09:07:48,583 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T09:07:49,043 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T09:07:49,044 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T09:07:49,045 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T09:07:49,046 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T09:07:49,061 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T09:07:49,061 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 208.24767436904057 by the user 123 
+2022-08-15T09:07:49,096 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 208.24767436904057 by the user 123 
+2022-08-15T09:07:49,096 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T09:07:49,116 [http-nio-8080-exec-6] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T09:07:49,510 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T09:07:49,512 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T09:07:49,512 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T09:07:49,513 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T09:07:49,535 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T09:07:49,537 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 730.6987892378153 by the user 123 
+2022-08-15T09:07:49,575 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 730.6987892378153 by the user 123 
+2022-08-15T09:07:49,577 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T09:07:49,590 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T13:21:23,864 [main] INFO  com.rajni.orderservice.OrderServiceApplication - Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on eb88ebe92198 with PID 1 (/order-service.jar started by root in /)
+2022-08-15T13:21:23,932 [main] DEBUG com.rajni.orderservice.OrderServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-15T13:21:23,937 [main] INFO  com.rajni.orderservice.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-15T13:21:35,213 [main] INFO  com.rajni.orderservice.OrderServiceApplication - Started OrderServiceApplication in 14.373 seconds (JVM running for 20.969)
+2022-08-15T13:22:34,996 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T13:22:34,997 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T13:22:34,999 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T13:22:34,999 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T13:22:35,164 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T13:22:35,165 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 737.5306100330662 by the user 123 
+2022-08-15T13:22:35,353 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 737.5306100330662 by the user 123 
+2022-08-15T13:22:35,354 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T13:22:35,468 [http-nio-8080-exec-7] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T13:22:36,850 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T13:22:36,850 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T13:22:36,851 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T13:22:36,851 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T13:22:36,863 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T13:22:36,863 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 412.0521457161211 by the user 123 
+2022-08-15T13:22:36,883 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 412.0521457161211 by the user 123 
+2022-08-15T13:22:36,883 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T13:22:36,897 [http-nio-8080-exec-8] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T13:22:37,680 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T13:22:37,680 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T13:22:37,680 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T13:22:37,680 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T13:22:37,687 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T13:22:37,688 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 965.3961549214805 by the user 123 
+2022-08-15T13:22:37,706 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 965.3961549214805 by the user 123 
+2022-08-15T13:22:37,707 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T13:22:37,721 [http-nio-8080-exec-9] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T13:22:38,412 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T13:22:38,413 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T13:22:38,413 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T13:22:38,414 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T13:22:38,421 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T13:22:38,422 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 655.4078449610795 by the user 123 
+2022-08-15T13:22:38,439 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 655.4078449610795 by the user 123 
+2022-08-15T13:22:38,440 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T13:22:38,456 [http-nio-8080-exec-10] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T13:22:40,724 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T13:22:40,725 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 12 by the user 123
+2022-08-15T13:22:40,725 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 12 by the user 123
+2022-08-15T13:22:40,726 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 12 
+2022-08-15T13:22:40,735 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 12 
+2022-08-15T13:22:40,736 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 227.68671498104308 by the user 123 
+2022-08-15T13:22:40,752 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 227.68671498104308 by the user 123 
+2022-08-15T13:22:40,752 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T13:22:40,771 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 12 by the user 123
+2022-08-15T13:31:27,398 [http-nio-8080-exec-1] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T13:31:27,398 [http-nio-8080-exec-1] INFO  com.rajni.orderservice.con

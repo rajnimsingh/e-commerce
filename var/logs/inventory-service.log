@@ -126,3 +126,17 @@ com.rajni.inventoryservice.model.InventoryException: Item not available
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+2022-08-15T09:07:02,992 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplication - Starting InventoryServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on ae1052c1fade with PID 1 (/inventory-service.jar started by root in /)
+2022-08-15T09:07:03,129 [main] DEBUG com.rajni.inventoryservice.InventoryServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-15T09:07:03,134 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-15T09:07:21,253 [main] INFO  com.rajni.inventoryservice.InventoryServiceApplication - Started InventoryServiceApplication in 23.125 seconds (JVM running for 31.871)
+2022-08-15T09:07:31,427 [http-nio-8070-exec-1] INFO  com.rajni.inventoryservice.controller.InventoryController - Fetching details for the Item, 12
+2022-08-15T09:07:31,431 [http-nio-8070-exec-1] INFO  com.rajni.inventoryservice.service.InventoryServiceImpl - Inventory Service checking the itemID, 12
+2022-08-15T09:07:47,937 [http-nio-8070-exec-2] INFO  com.rajni.inventoryservice.controller.InventoryController - Fetching details for the Item, 12
+2022-08-15T09:07:47,938 [http-nio-8070-exec-2] INFO  com.rajni.inventoryservice.service.InventoryServiceImpl - Inventory Service checking the itemID, 12
+2022-08-15T09:07:48,537 [http-nio-8070-exec-3] INFO  com.rajni.inventoryservice.controller.InventoryController - Fetching details for the Item, 12
+2022-08-15T09:07:48,538 [http-nio-8070-exec-3] INFO  com.rajni.inventoryservice.service.InventoryServiceImpl - Inventory Service checking the itemID, 12
+2022-08-15T09:07:49,052 [http-nio-8070-exec-4] INFO  com.rajni.inventoryservice.controller.InventoryController - Fetching details for the Item, 12
+2022-08-15T09:07:49,054 [http-nio-8070-exec-4] INFO  com.rajni.inventoryservice.service.InventoryServiceImpl - Inventory Service checking the itemID, 12
+2022-08-15T09:07:49,521 [http-nio-8070-exec-6] INFO  com.rajni.inventoryservice.controller.InventoryController - Fetching details for the Item, 12
+2022-08-15T09:07:49,525 [http-nio-8070-exec-6] INFO  com.rajni.inventoryservice.service.InventoryServiceImpl - Inventory Service checking the itemID, 12
