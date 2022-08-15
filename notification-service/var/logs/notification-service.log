@@ -2,3 +2,31 @@
 2022-08-13T23:42:06,872 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
 2022-08-13T23:42:06,873 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
 2022-08-13T23:42:07,778 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.156 seconds (JVM running for 2.306)
+2022-08-14T00:03:36,813 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1777 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/notification-service)
+2022-08-14T00:03:36,816 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-14T00:03:36,816 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-14T00:03:37,784 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.184 seconds (JVM running for 2.141)
+2022-08-14T00:24:23,690 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 2041 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/notification-service)
+2022-08-14T00:24:23,701 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-14T00:24:23,702 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-14T00:24:24,650 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.206 seconds (JVM running for 2.214)
+2022-08-14T13:42:29,785 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1038 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/notification-service)
+2022-08-14T13:42:29,788 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-14T13:42:29,789 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-14T13:42:30,795 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.294 seconds (JVM running for 2.45)
+2022-08-14T14:08:09,806 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1226 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/notification-service)
+2022-08-14T14:08:09,811 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-14T14:08:09,812 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-14T14:08:10,858 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.307 seconds (JVM running for 2.625)
+2022-08-14T14:11:52,326 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1339 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/notification-service)
+2022-08-14T14:11:52,329 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-14T14:11:52,329 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-14T14:11:53,259 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.191 seconds (JVM running for 2.269)
+2022-08-14T14:22:34,039 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1462 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/notification-service)
+2022-08-14T14:22:34,042 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-14T14:22:34,043 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-14T14:22:34,991 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.215 seconds (JVM running for 2.3)
+2022-08-14T14:33:31,279 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Starting NotificationServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1605 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/notification-service)
+2022-08-14T14:33:31,281 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-14T14:33:31,281 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-08-14T14:33:32,203 [main] INFO  com.rajni.notificationservice.NotificationServiceApplicationTests - Started NotificationServiceApplicationTests in 1.156 seconds (JVM running for 2.197)

@@ -81,3 +81,63 @@ com.rajni.orderservice.model.OrderException: Item not available
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+2022-08-15T06:43:29,710 [main] INFO  com.rajni.orderservice.OrderServiceApplication - Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 39be26b15c34 with PID 1 (/order-service.jar started by root in /)
+2022-08-15T06:43:29,775 [main] DEBUG com.rajni.orderservice.OrderServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-15T06:43:29,789 [main] INFO  com.rajni.orderservice.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-15T06:43:39,081 [main] INFO  com.rajni.orderservice.OrderServiceApplication - Started OrderServiceApplication in 13.763 seconds (JVM running for 21.53)
+2022-08-15T06:43:54,030 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T06:43:54,031 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 15 by the user 123
+2022-08-15T06:43:54,033 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 15 by the user 123
+2022-08-15T06:43:54,033 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 15 
+2022-08-15T06:43:54,297 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice is successful for itemID 15 
+2022-08-15T06:43:54,298 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment starts for price 114.69867178756965 by the user 123 
+2022-08-15T06:43:54,557 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.makePayment finishes for price 114.69867178756965 by the user 123 
+2022-08-15T06:43:54,558 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.sendNotification executing for message SUCCESS 
+2022-08-15T06:43:54,973 [http-nio-8080-exec-3] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder is successful for itemID 15 by the user 123
+2022-08-15T06:52:05,226 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.controller.OrderController - place Order execution starts.
+2022-08-15T06:52:05,227 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.controller.OrderController - Order placed for the item Id, 873843 by the user 123
+2022-08-15T06:52:05,227 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.placeOrder starts for itemID 873843 by the user 123
+2022-08-15T06:52:05,228 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice starts for itemID 873843 
+2022-08-15T06:52:05,280 [http-nio-8080-exec-5] INFO  com.rajni.orderservice.service.OrderServiceImpl - OrderService.getItemPrice fails for itemID 873843 
+2022-08-15T06:52:05,281 [http-nio-8080-exec-5] ERROR com.rajni.orderservice.controller.OrderController - place Order execution fails.
+2022-08-15T06:52:05,282 [http-nio-8080-exec-5] ERROR com.rajni.orderservice.controller.OrderController - Exception occurred in placing order for item, 873843 by the user 123
+com.rajni.orderservice.model.OrderException: Item not available
+	at com.rajni.orderservice.service.OrderServiceImpl.getItemPrice(OrderServiceImpl.java:54) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.rajni.orderservice.service.OrderServiceImpl.placeOrder(OrderServiceImpl.java:34) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.rajni.orderservice.controller.OrderController.placeOrder(OrderController.java:31) ~[classes!/:0.0.1-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar!/:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar!/:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	
