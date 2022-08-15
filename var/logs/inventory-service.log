@@ -124,4 +124,5 @@ com.rajni.inventoryservice.model.InventoryException: Item not available
 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar!/:?]
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar!/:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar!/:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]

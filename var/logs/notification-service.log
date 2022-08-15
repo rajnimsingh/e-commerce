@@ -6,3 +6,9 @@
 2022-08-13T18:13:09,212 [http-nio-8090-exec-1] INFO  com.rajni.notificationservice.service.NotificationServiceImpl - Sending notification from Notification Service to the recipient rajni@gmail.com, with subject Order Success
 2022-08-13T18:13:51,356 [http-nio-8090-exec-3] INFO  com.rajni.notificationservice.controller.NotificationController - Sending notification to the user, rajni@gmail.com with the subject Order Success
 2022-08-13T18:13:51,358 [http-nio-8090-exec-3] INFO  com.rajni.notificationservice.service.NotificationServiceImpl - Sending notification from Notification Service to the recipient rajni@gmail.com, with subject Order Success
+2022-08-15T06:43:27,925 [main] INFO  com.rajni.notificationservice.NotificationServiceApplication - Starting NotificationServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 46c3e578499e with PID 1 (/notification-service.jar started by root in /)
+2022-08-15T06:43:28,001 [main] DEBUG com.rajni.notificationservice.NotificationServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-15T06:43:28,041 [main] INFO  com.rajni.notificationservice.NotificationServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-15T06:43:38,363 [main] INFO  com.rajni.notificationservice.NotificationServiceApplication - Started NotificationServiceApplication in 15.149 seconds (JVM running for 21.445)
+2022-08-15T06:43:54,928 [http-nio-8090-exec-1] INFO  com.rajni.notificationservice.controller.NotificationController - Sending notification to the user, rajni@gmail.com with the subject Order Success
+2022-08-15T06:43:54,930 [http-nio-8090-exec-1] INFO  com.rajni.notificationservice.service.NotificationServiceImpl - Sending notification from Notification Service to the recipient rajni@gmail.com, with subject Order Success

@@ -14,3 +14,21 @@
 06:43:38.349 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Started PaymentServiceApplication in 16.213 seconds (JVM running for 22.461)
 06:43:54.515 [http-nio-8060-exec-1] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 114.69867178756965 by the user 123
 06:43:54.518 [http-nio-8060-exec-1] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 114.69867178756965
+08:45:26.663 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Starting PaymentServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 3e6846a349a0 with PID 1 (/payment-service.jar started by root in /)
+08:45:26.825 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+08:45:26.850 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:45:48.634 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Started PaymentServiceApplication in 26.655 seconds (JVM running for 33.881)
+08:54:09.640 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Starting PaymentServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 320c7133c3e2 with PID 1 (/payment-service.jar started by root in /)
+08:54:09.670 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+08:54:09.673 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:54:13.811 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Started PaymentServiceApplication in 4.976 seconds (JVM running for 7.115)
+08:55:21.587 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Starting PaymentServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on eb5aeebd4df8 with PID 1 (/payment-service.jar started by root in /)
+08:55:21.681 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+08:55:21.703 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:55:39.403 [main] INFO  com.rajni.paymentservice.PaymentServiceApplication - Started PaymentServiceApplication in 22.803 seconds (JVM running for 30.722)
+08:58:53.233 [http-nio-8060-exec-1] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 973.345389002019 by the user 123
+08:58:53.238 [http-nio-8060-exec-1] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 973.345389002019
+08:58:53.244 [http-nio-8060-exec-1] ERROR com.rajni.paymentservice.service.PaymentServiceImpl - Payment failed, as this amount 973.345389002019 is not acceptable
+08:58:53.247 [http-nio-8060-exec-1] ERROR com.rajni.paymentservice.controller.PaymentController - Payment fails for the amount, 973.345389002019 by the user, 123
+08:58:56.836 [http-nio-8060-exec-2] INFO  com.rajni.paymentservice.controller.PaymentController - Making payment for the amount, 518.6187259886428 by the user 123
+08:58:56.840 [http-nio-8060-exec-2] INFO  com.rajni.paymentservice.service.PaymentServiceImpl - PaymentService starts for the amount, 518.6187259886428

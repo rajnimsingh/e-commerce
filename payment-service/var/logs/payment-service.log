@@ -30,3 +30,11 @@
 14:33:23.748 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
 14:33:23.749 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
 14:33:24.788 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 1.337 seconds (JVM running for 2.76)
+14:14:37.284 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1697 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/payment-service)
+14:14:37.287 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+14:14:37.287 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:14:38.848 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 1.863 seconds (JVM running for 3.335)
+14:24:36.037 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 11.0.11 on Rajnis-MacBook-Pro.local with PID 1942 (started by rajniubhi in /Users/rajniubhi/Documents/JavaProjects/ecommerce/payment-service)
+14:24:36.040 [main] DEBUG com.rajni.paymentservice.PaymentServiceApplicationTests - Running with Spring Boot v2.7.2, Spring v5.3.22
+14:24:36.041 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:24:37.779 [main] INFO  com.rajni.paymentservice.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 2.076 seconds (JVM running for 3.795)
